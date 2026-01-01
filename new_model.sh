@@ -1,35 +1,55 @@
-#!/usr/bin/env bash
+#!/bin/bash
+# Usage: ./scripts/new_model.sh <category> <model_name>
+# Example: ./scripts/new_model.sh arrays-1d a7
 
-if [ "$#" -ne 3 ]; then
-	echo "Usage: $0 <topic> <model-name> <title>"
+CATEGORY=$1
+MODEL_NAME=$2
+
+# Input Validation
+if [[ -z "$CATEGORY" || -z "$MODEL_NAME" ]]; then
+	echo "Usage: $0 <category> <model_name>"
+	echo "Example: $0 arrays-1d a7"
 	exit 1
 fi
 
-TOPIC=$1
-MODEL=$2
-TITLE=$3
+# Configuration
+BASE_DIR="models"
+TARGET_DIR="$BASE_DIR/$CATEGORY"
+FULL_PATH="$TARGET_DIR/solution.cs"
 
-DIR="models/$TOPIC/$MODEL"
+# Create Directory if missing
+if [ ! -d "$TARGET_DIR" ]; then
+	mkdir -p "$TARGET_DIR"
+	echo "[*] Created directory: $TARGET_DIR"
+fi
 
-mkdir -p "$DIR"
+# Check if file exists
+if [ -f "$FULL_PATH" ]; then
+	echo "[!] File $FULL_PATH already exists!"
+	exit 1
+fi
 
-cat > "$DIR/problem.md" <<EOF
-# $TITLE
-
-## Problem
-(Write the problem statement here)
-EOF
-
-cat > "$DIR/solution.cs" <<EOF
+# Generate C# Template
+cat <<EOF > "$FULL_PATH"
 using System;
 
-class Program
+namespace Models.$CATEGORY
 {
-	static void Main()
+	public class Model${MODEL_NAME}
 	{
-		// TODO: Implement solution
+		public static void Run()
+		{
+			Console.WriteLine("--- Running Model ${MODEL_NAME} ($CATEGORY) ---");
+
+			// TODO: Implement solution logic here
+			// Example:
+			// int[] numbers = { 1, 2, 3, 4, 5 };
+			// foreach(var n in numbers) Console.Write(n + " ");
+
+			Console.ReadKey();
+		}
 	}
 }
 EOF
 
-echo "[*] Model created at $DIR"
+echo "[*] Created C# Model: $FULL_PATH"
