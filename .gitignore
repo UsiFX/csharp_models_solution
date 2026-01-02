@@ -1,0 +1,14 @@
+# .NET build artifacts
+bin/
+obj/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# temp scripts
+gen-temp.sh
+
+# editor files
+.vSCode/
+.idea/

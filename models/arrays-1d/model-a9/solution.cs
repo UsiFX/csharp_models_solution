@@ -1,17 +1,26 @@
-int[] array = new int[10];
+using System;
 
-for (int i = 0; i < array.Length; i++)
+namespace Models.Arrays1D
 {
-    Console.Write("Enter element " + (i + 1) + ": ");
-    array[i] = Convert.ToInt32(Console.ReadLine());
-}
+	public class ModelA9
+	{
+		public static void Run()
+		{
+			int[] array = new int[10];
 
-for (int print = 0; print < array.Length; print++)
-{
-    if (print % 2 == 0)
-    {
-        Console.Write("Element at even index " + print + ": ");
-    }
-}
+			for (int i = 0; i < array.Length; i++)
+			{
+				Console.Write("Enter element " + (i + 1) + ": ");
+				array[i] = Convert.ToInt32(Console.ReadLine());
+			}
+			int print = 0;
+			for (; print < array.Length; print++)
+			{
+				if (print % 2 == 0)
+					Console.Write("Element at even index " + print + ": ");
+			}
 
-Console.WriteLine(array[print]);
+			Console.WriteLine(array[print]);
+		}
+	}
+}

@@ -1,57 +1,121 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-set -e
+README_FILE="README.md"
+MODELS_DIR="models"
 
-BASE_DIR="models"
-README="README.md"
+cat <<EOF > "$README_FILE"
+<p align="center">
+  <img width="100%" src="https://github.com/UsiFX/csharp_models_solution/blob/main/banner/csharp_solutions.png"/>
+</p>
 
-# Topic display names
-declare -A TOPIC_TITLES=(
-	["arrays-1d"]="📦 Arrays (1D)"
-	["arrays-2d"]="📦 Arrays (2D)"
-	["patterns"]="🎨 Patterns"
-)
+# 📘 C# Programming Models Solution
 
-echo "# 📘 Programming Models – C# Solutions" > "$README"
-echo "" >> "$README"
-echo "Well-structured solutions for C# practical programming models." >> "$README"
-echo "Problems are organized by topic and model number." >> "$README"
-echo "" >> "$README"
-echo "---" >> "$README"
-echo "## 📂 Topics Overview" >> "$README"
+![Language](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-for topic in $(ls -d "$BASE_DIR"/* | sort); do
-	[ -d "$topic" ] || continue
-	topic_key=$(basename "$topic")
-	topic_title=${TOPIC_TITLES[$topic_key]:-$topic_key}
+A structured collection of C# programming models, organized by topic and executed dynamically using reflection.
+---
 
-	echo "" >> "$README"
-	echo "### $topic_title" >> "$README"
+## 📂 Project Progress
 
-	found_any=false
+EOF
 
-	for model in $(ls -d "$topic"/* 2>/dev/null | sort); do
-		[ -d "$model" ] || continue
-		model_name=$(basename "$model")
-		pretty_name=$(echo "$model_name" | sed 's/model-/Model /' | tr 'a-z' 'A-Z')
+# Categories
+find "$MODELS_DIR" -maxdepth 1 -mindepth 1 -type d | sort | while read -r category_path; do
+    CATEGORY_RAW=$(basename "$category_path")
 
-		if [ -f "$model/solution.cs" ]; then
-			echo "- ✅ [$pretty_name]($BASE_DIR/$topic_key/$model_name)" >> "$README"
-		else
-			echo "- ⏳ $pretty_name" >> "$README"
-		fi
+    # Pretty display: arrays-1d → Arrays 1D
+    CATEGORY_DISPLAY=$(echo "$CATEGORY_RAW" | sed 's/-/ /g; s/\b\(.\)/\u\1/g')
 
-		found_any=true
-	done
+    echo "### 📦 $CATEGORY_DISPLAY" >> "$README_FILE"
+    echo "| Model | Status | Source |" >> "$README_FILE"
+    echo "| :--- | :---: | :--- |" >> "$README_FILE"
 
-	if [ "$found_any" = false ]; then
-		echo "- _(No models yet)_" >> "$README"
-	fi
+    # Models
+    find "$category_path" -maxdepth 1 -mindepth 1 -type d | sort | while read -r model_path; do
+        MODEL_DIR=$(basename "$model_path")
+        MODEL_NAME=$(echo "$MODEL_DIR" | sed 's/model-//g' | tr '[:lower:]' '[:upper:]')
+
+        if [ -f "$model_path/solution.cs" ]; then
+            STATUS="✅"
+            LINK="[\`solution.cs\`]($model_path/solution.cs)"
+        else
+            STATUS="⏳"
+            LINK="*Pending*"
+        fi
+
+        echo "| $MODEL_NAME | $STATUS | $LINK |" >> "$README_FILE"
+    done
+
+    echo "" >> "$README_FILE"
 done
+cat <<EOF >> "$README_FILE"
+---
 
-echo "" >> "$README"
-echo "---" >> "$README"
-echo "## ⚙️ Automation" >> "$README"
-echo "This README is auto-generated using \`generate_readme.sh\`." >> "$README"
-echo "" >> "$README"
-echo "**Do not edit manually.**" >> "$README"
+## ⚙️ Prerequisites & Setup
+
+### 1️⃣ Install .NET SDK
+
+- **Ubuntu / Debian**
+\`\`\`bash
+# apt update
+# apt install -y dotnet-sdk-10.0
+\`\`\`
+
+- **Fedora / RHEL**
+\`\`\`bash
+# dnf install dotnet-sdk-10.0 -y
+\`\`\`
+
+- **Arch Linux / Manjaro**
+\`\`\`bash
+# pacman -S dotnet-sdk --noconfirm
+\`\`\`
+
+- **Windows**
+Download and install from [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
+
+- **Other**
+Refer to [Microsoft Installation documentation](https://learn.microsoft.com/en-us/dotnet/core/install)
+
+### Build
+\`\`\`bash
+$ dotnet build
+\`\`\`
+
+---
+
+## ▶️ Running Models
+
+Models are resolved automatically using **reflection**.
+
+\`\`\`bash
+$ make run topic=<category> model=<model>
+\`\`\`
+
+**Example:**
+\`\`\`bash
+$ make run topic=arrays-1d model=a7
+\`\`\`
+
+---
+
+## 🚀 Quick Start
+
+### Create a New Model
+\`\`\`bash
+$ make new topic=<category> model=<model>
+\`\`\`
+
+**Example:**
+\`\`\`bash
+$ make new topic=arrays-1d model=b6
+\`\`\`
+
+### Regenerate Documentation
+\`\`\`bash
+$ make readme
+\`\`\`
+
+EOF
+
+echo "[*] README rebuilt successfully."

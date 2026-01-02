@@ -1,21 +1,28 @@
-int[] array = new int[6];
-int[] temp = new int[];
+using System;
 
-for (int read = 0; read < array.Length; read++)
+namespace Models.Arrays1D
 {
-    Console.WriteLine("Enter element " + (read + 1) + ": ");
-    array[read] = Convert.ToInt32(Console.ReadLine());
+	public class ModelB6
+	{
+		public static void Run()
+		{
+			int[] array = new int[6];
+			int[] temp = new int[6];
 
-    if (array[read] % 3 == 0)
-    {
-        temp[read] = (int)Math.Sqrt(array[read]);
-    }
-}
+			for (int read = 0; read < array.Length; read++)
+			{
+				Console.WriteLine("Enter element " + (read + 1) + ": ");
+				array[read] = Convert.ToInt32(Console.ReadLine());
 
-for (int print = 0; print < temp.Length; print++)
-{
-    if (temp[print] != 0)
-    {
-        Console.WriteLine("Square root of element " + (print + 1) + " is: " + temp[print]);
-    }
+				if (array[read] >= 0 && array[read] % 3 == 0)
+				        temp[read] = (int)Math.Sqrt(array[read]);
+			}
+
+			for (int print = 0; print < temp.Length; print++)
+			{
+				if (temp[print] != 0)
+					Console.WriteLine("Square root of element " + (print + 1) + " is: " + temp[print]);
+			}
+		}
+	}
 }
