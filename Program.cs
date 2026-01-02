@@ -8,7 +8,7 @@ class Program
 {
 	static void Main(string[] args)
 	{
-		if (args.Length < 2)
+		if (args.Length < 2 || args.Length >= 3)
 		{
 			Console.WriteLine("Usage: dotnet run -- <category> <model>");
 			return;
