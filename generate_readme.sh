@@ -23,6 +23,7 @@ cat <<EOF > "$README_FILE"
 # 📘 C# Programming Models Solution
 
 ![Language](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)
 
 A structured collection of C# programming models, organized by topic and executed dynamically using reflection.
 ---
@@ -127,6 +128,11 @@ $ make new topic=arrays-1d model=b6
 \`\`\`bash
 $ make readme
 \`\`\`
+
+## ⚖️ License
+
+This project is licensed under the **GNU General Public License v3.0**.
+See the [LICENSE](LICENSE) file for details.
 
 EOF
 

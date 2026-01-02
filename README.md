@@ -5,6 +5,7 @@
 # 📘 C# Programming Models Solution
 
 ![Language](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)
 
 A structured collection of C# programming models, organized by topic and executed dynamically using reflection.
 ---
@@ -27,6 +28,7 @@ A structured collection of C# programming models, organized by topic and execute
 | B6 | ✅ | [`solution.cs`](models/arrays-1d/model-b6/solution.cs) |
 | B7 | ✅ | [`solution.cs`](models/arrays-1d/model-b7/solution.cs) |
 | B8 | ✅ | [`solution.cs`](models/arrays-1d/model-b8/solution.cs) |
+| C1 | ⏳ | *Pending* |
 | C2 | ⏳ | *Pending* |
 | C3 | ⏳ | *Pending* |
 | C4 | ⏳ | *Pending* |
@@ -121,4 +123,9 @@ $ make new topic=arrays-1d model=b6
 ```bash
 $ make readme
 ```
+
+## ⚖️ License
+
+This project is licensed under the **GNU General Public License v3.0**.
+See the [LICENSE](LICENSE) file for details.
 
