@@ -10,6 +10,14 @@
 A structured collection of C# programming models, organized by topic and executed dynamically using reflection.
 ---
 
+## Table of Contents
+
+- [Project Progress](#-project-progress)
+- [Prerequisites & Setup](#%EF%B8%8F-prerequisites--setup)
+- [Running Models](#%EF%B8%8F-running-models)
+- [Quick Start](#-quick-start)
+- [License](#%EF%B8%8F-license)
+
 ## 📂 Project Progress
 
 ### 📦 Arrays 1d
