@@ -1,3 +1,5 @@
+// Copyright (C) 2026~2027 UsiFX <xprjkts@gmail.com> Licensed under GNU GPLv3.
+
 using System;
 
 namespace Models.Arrays2D

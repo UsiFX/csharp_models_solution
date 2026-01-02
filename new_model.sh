@@ -1,4 +1,17 @@
 #!/bin/bash
+#
+# Copyright (C) 2026~2027 UsiFX <xprjkts@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License
+#
+# This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+
 # Usage: ./scripts/new_model.sh <category> <model_name>
 # Example: ./scripts/new_model.sh arrays-1d a7
 
