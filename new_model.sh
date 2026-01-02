@@ -19,10 +19,12 @@ set -e
 
 CATEGORY_RAW="$1"
 MODEL_RAW="$2"
+AUTHOR_NAME="${3:-UsiFX}"
+AUTHOR_EMAIL="${4:-xprjkts@gmail.com}"
 
 if [[ -z "$CATEGORY_RAW" || -z "$MODEL_RAW" ]]; then
-	echo "Usage: $0 <category> <model_name>"
-	echo "Example: $0 arrays-1d a7"
+	echo "Usage: $0 <category> <model_name> [author_name] [author_email]"
+	echo "Example: $0 arrays-1d a7 \"John Doe\" \"john@example.com\""
 	exit 1
 fi
 
@@ -50,6 +52,8 @@ fi
 # Make CSharp file
 
 cat <<EOF > "$FULL_PATH"
+// Copyright (C) 2026~2027 $AUTHOR_NAME <$AUTHOR_EMAIL> Licensed under GNU GPLv3.
+
 using System;
 
 namespace Models.$CATEGORY_NS
@@ -73,3 +77,4 @@ echo "    Category  : $CATEGORY_RAW"
 echo "    Namespace : Models.$CATEGORY_NS"
 echo "    Class     : Model$MODEL_CLASS"
 echo "    Path      : $FULL_PATH"
+echo "    Author    : $AUTHOR_NAME <$AUTHOR_EMAIL>"
