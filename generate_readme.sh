@@ -60,7 +60,7 @@ find "$MODELS_DIR" -maxdepth 1 -mindepth 1 -type d | sort | while read -r catego
             STATUS="✅"
             LINK="[\`Solution\`]($model_path/solution.cs)"
             if [ -f "$model_path/README.md" ]; then
-                DOC="[\`Explaintation\`]($model_path/README.md)"
+                DOC="[\`Explaination\`]($model_path/README.md)"
             else
                 DOC="*Pending*"
             fi

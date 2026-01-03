@@ -26,9 +26,9 @@ A structured collection of C# programming models, organized by topic and execute
 | A3 | ⏳ | *Pending* | *Pending* |
 | A4 | ⏳ | *Pending* | *Pending* |
 | A6 | ⏳ | *Pending* | *Pending* |
-| A7 | ✅ | [`Solution`](models/arrays-1d/model-a7/solution.cs) | [`Explaintation`](models/arrays-1d/model-a7/README.md) |
-| A8 | ✅ | [`Solution`](models/arrays-1d/model-a8/solution.cs) | [`Explaintation`](models/arrays-1d/model-a8/README.md) |
-| A9 | ✅ | [`Solution`](models/arrays-1d/model-a9/solution.cs) | [`Explaintation`](models/arrays-1d/model-a9/README.md) |
+| A7 | ✅ | [`Solution`](models/arrays-1d/model-a7/solution.cs) | [`Explaination`](models/arrays-1d/model-a7/README.md) |
+| A8 | ✅ | [`Solution`](models/arrays-1d/model-a8/solution.cs) | [`Explaination`](models/arrays-1d/model-a8/README.md) |
+| A9 | ✅ | [`Solution`](models/arrays-1d/model-a9/solution.cs) | [`Explaination`](models/arrays-1d/model-a9/README.md) |
 | B1 | ⏳ | *Pending* | *Pending* |
 | B2 | ⏳ | *Pending* | *Pending* |
 | B4 | ⏳ | *Pending* | *Pending* |
@@ -58,7 +58,7 @@ A structured collection of C# programming models, organized by topic and execute
 | Model | Status | Source | Issue |
 | :--- | :---: | :---: | :--- |
 | A2 | ⏳ | *Pending* | *Pending* |
-| A5 | ✅ | [`Solution`](models/arrays-2d/model-a5/solution.cs) | [`Explaintation`](models/arrays-2d/model-a5/README.md) |
+| A5 | ✅ | [`Solution`](models/arrays-2d/model-a5/solution.cs) | [`Explaination`](models/arrays-2d/model-a5/README.md) |
 | B9 | ⏳ | *Pending* | *Pending* |
 
 ### 📦 Patterns
