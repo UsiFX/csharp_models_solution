@@ -26,9 +26,11 @@ namespace Models.Arrays1D
 				}
 			}
 
-			Console.WriteLine("Modified array: ");
+			Console.Write("Modified array: ");
 			for (int print = 0; print < array.Length; print++)
-				Console.WriteLine(array[print] + " ");
+				Console.Write(array[print] + " ");
+
+			Console.WriteLine();
 
 		}
 	}
