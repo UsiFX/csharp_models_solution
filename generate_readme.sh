@@ -84,18 +84,18 @@ cat <<EOF >> "$README_FILE"
 
 - **Ubuntu / Debian**
 \`\`\`bash
-# apt update
-# apt install -y dotnet-sdk-10.0
+sudo apt update
+sudo apt install -y dotnet-sdk-10.0
 \`\`\`
 
 - **Fedora / RHEL**
 \`\`\`bash
-# dnf install dotnet-sdk-10.0 -y
+sudo dnf install dotnet-sdk-10.0 -y
 \`\`\`
 
 - **Arch Linux / Manjaro**
 \`\`\`bash
-# pacman -S dotnet-sdk --noconfirm
+sudo pacman -S dotnet-sdk --noconfirm
 \`\`\`
 
 - **Windows**
@@ -106,7 +106,7 @@ Refer to [Microsoft Installation documentation](https://learn.microsoft.com/en-u
 
 ### Build
 \`\`\`bash
-$ dotnet build
+dotnet build
 \`\`\`
 
 ---
@@ -116,12 +116,12 @@ $ dotnet build
 Models are resolved automatically using **reflection**.
 
 \`\`\`bash
-$ make run topic=<category> model=<model>
+make run topic=<category> model=<model>
 \`\`\`
 
 **Example:**
 \`\`\`bash
-$ make run topic=arrays-1d model=a7
+make run topic=arrays-1d model=a7
 \`\`\`
 
 ---
@@ -130,17 +130,17 @@ $ make run topic=arrays-1d model=a7
 
 ### Create a New Model
 \`\`\`bash
-$ make new topic=<category> model=<model>
+make new topic=<category> model=<model>
 \`\`\`
 
 **Example:**
 \`\`\`bash
-$ make new topic=arrays-1d model=b6
+make new topic=arrays-1d model=b6
 \`\`\`
 
 ### Regenerate Documentation
 \`\`\`bash
-$ make readme
+make readme
 \`\`\`
 
 ## ⚖️ License
