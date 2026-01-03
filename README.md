@@ -21,49 +21,49 @@ A structured collection of C# programming models, organized by topic and execute
 ## 📂 Project Progress
 
 ### 📦 Arrays 1d
-| Model | Status | Source |
-| :--- | :---: | :--- |
-| A3 | ⏳ | *Pending* |
-| A4 | ⏳ | *Pending* |
-| A6 | ⏳ | *Pending* |
-| A7 | ✅ | [`solution.cs`](models/arrays-1d/model-a7/solution.cs) |
-| A8 | ✅ | [`solution.cs`](models/arrays-1d/model-a8/solution.cs) |
-| A9 | ✅ | [`solution.cs`](models/arrays-1d/model-a9/solution.cs) |
-| B1 | ⏳ | *Pending* |
-| B2 | ⏳ | *Pending* |
-| B4 | ⏳ | *Pending* |
-| B5 | ✅ | [`solution.cs`](models/arrays-1d/model-b5/solution.cs) |
-| B6 | ✅ | [`solution.cs`](models/arrays-1d/model-b6/solution.cs) |
-| B7 | ✅ | [`solution.cs`](models/arrays-1d/model-b7/solution.cs) |
-| B8 | ✅ | [`solution.cs`](models/arrays-1d/model-b8/solution.cs) |
-| C1 | ⏳ | *Pending* |
-| C2 | ⏳ | *Pending* |
-| C3 | ⏳ | *Pending* |
-| C4 | ⏳ | *Pending* |
-| C5 | ⏳ | *Pending* |
-| C6 | ⏳ | *Pending* |
-| C7 | ⏳ | *Pending* |
-| C8 | ⏳ | *Pending* |
-| C9 | ⏳ | *Pending* |
-| D1 | ⏳ | *Pending* |
-| D2 | ⏳ | *Pending* |
-| D4 | ⏳ | *Pending* |
-| D5 | ⏳ | *Pending* |
-| D6 | ⏳ | *Pending* |
-| D7 | ⏳ | *Pending* |
-| D8 | ⏳ | *Pending* |
-| D9 | ⏳ | *Pending* |
+| Model | Status | Source | Issue
+| :--- | :---: | :---: | :--- |
+| A3 | ⏳ | *Pending* | *Pending* |
+| A4 | ⏳ | *Pending* | *Pending* |
+| A6 | ⏳ | *Pending* | *Pending* |
+| A7 | ✅ | [`Solution`](models/arrays-1d/model-a7/solution.cs) | [`Explaintation`](models/arrays-1d/model-a7/README.md) |
+| A8 | ✅ | [`Solution`](models/arrays-1d/model-a8/solution.cs) | [`Explaintation`](models/arrays-1d/model-a8/README.md) |
+| A9 | ✅ | [`Solution`](models/arrays-1d/model-a9/solution.cs) | [`Explaintation`](models/arrays-1d/model-a9/README.md) |
+| B1 | ⏳ | *Pending* | *Pending* |
+| B2 | ⏳ | *Pending* | *Pending* |
+| B4 | ⏳ | *Pending* | *Pending* |
+| B5 | ✅ | [`Solution`](models/arrays-1d/model-b5/solution.cs) | *Pending* |
+| B6 | ✅ | [`Solution`](models/arrays-1d/model-b6/solution.cs) | *Pending* |
+| B7 | ✅ | [`Solution`](models/arrays-1d/model-b7/solution.cs) | *Pending* |
+| B8 | ✅ | [`Solution`](models/arrays-1d/model-b8/solution.cs) | *Pending* |
+| C1 | ⏳ | *Pending* | *Pending* |
+| C2 | ⏳ | *Pending* | *Pending* |
+| C3 | ⏳ | *Pending* | *Pending* |
+| C4 | ⏳ | *Pending* | *Pending* |
+| C5 | ⏳ | *Pending* | *Pending* |
+| C6 | ⏳ | *Pending* | *Pending* |
+| C7 | ⏳ | *Pending* | *Pending* |
+| C8 | ⏳ | *Pending* | *Pending* |
+| C9 | ⏳ | *Pending* | *Pending* |
+| D1 | ⏳ | *Pending* | *Pending* |
+| D2 | ⏳ | *Pending* | *Pending* |
+| D4 | ⏳ | *Pending* | *Pending* |
+| D5 | ⏳ | *Pending* | *Pending* |
+| D6 | ⏳ | *Pending* | *Pending* |
+| D7 | ⏳ | *Pending* | *Pending* |
+| D8 | ⏳ | *Pending* | *Pending* |
+| D9 | ⏳ | *Pending* | *Pending* |
 
 ### 📦 Arrays 2d
-| Model | Status | Source |
-| :--- | :---: | :--- |
-| A2 | ⏳ | *Pending* |
-| A5 | ✅ | [`solution.cs`](models/arrays-2d/model-a5/solution.cs) |
-| B9 | ⏳ | *Pending* |
+| Model | Status | Source | Issue
+| :--- | :---: | :---: | :--- |
+| A2 | ⏳ | *Pending* | *Pending* |
+| A5 | ✅ | [`Solution`](models/arrays-2d/model-a5/solution.cs) | [`Explaintation`](models/arrays-2d/model-a5/README.md) |
+| B9 | ⏳ | *Pending* | *Pending* |
 
 ### 📦 Patterns
-| Model | Status | Source |
-| :--- | :---: | :--- |
+| Model | Status | Source | Issue
+| :--- | :---: | :---: | :--- |
 
 ---
 

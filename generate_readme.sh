@@ -48,8 +48,8 @@ find "$MODELS_DIR" -maxdepth 1 -mindepth 1 -type d | sort | while read -r catego
     CATEGORY_DISPLAY=$(echo "$CATEGORY_RAW" | sed 's/-/ /g; s/\b\(.\)/\u\1/g')
 
     echo "### 📦 $CATEGORY_DISPLAY" >> "$README_FILE"
-    echo "| Model | Status | Source |" >> "$README_FILE"
-    echo "| :--- | :---: | :--- |" >> "$README_FILE"
+    echo "| Model | Status | Source | Issue |" >> "$README_FILE"
+    echo "| :--- | :---: | :---: | :--- |" >> "$README_FILE"
 
     # Models
     find "$category_path" -maxdepth 1 -mindepth 1 -type d | sort | while read -r model_path; do
@@ -58,13 +58,19 @@ find "$MODELS_DIR" -maxdepth 1 -mindepth 1 -type d | sort | while read -r catego
 
         if [ -f "$model_path/solution.cs" ]; then
             STATUS="✅"
-            LINK="[\`solution.cs\`]($model_path/solution.cs)"
+            LINK="[\`Solution\`]($model_path/solution.cs)"
+            if [ -f "$model_path/README.md" ]; then
+                DOC="[\`Explaintation\`]($model_path/README.md)"
+            else
+                DOC="*Pending*"
+            fi
         else
             STATUS="⏳"
             LINK="*Pending*"
+            DOC="*Pending*"
         fi
 
-        echo "| $MODEL_NAME | $STATUS | $LINK |" >> "$README_FILE"
+        echo "| $MODEL_NAME | $STATUS | $LINK | $DOC |" >> "$README_FILE"
     done
 
     echo "" >> "$README_FILE"

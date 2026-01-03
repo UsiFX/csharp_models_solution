@@ -4,7 +4,7 @@
 Swap first and last elements of an array.
 
 ## Input
-6 integers.
+Array of 6 integers.
 
 ## Output
 Modified array in one line.
