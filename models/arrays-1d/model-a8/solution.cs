@@ -22,10 +22,11 @@ namespace Models.Arrays1D
 				array[grep] = Math.Abs(array[grep]);
 			}
 
-			Console.WriteLine("Modified array with absolute values: ");
+			Console.Write("Modified array with absolute values: ");
 			for (int print = 0; print < array.Length; print++)
-				Console.WriteLine(array[print] + " ");
+				Console.Write(array[print] + " ");
 
+			Console.WriteLine();
 		}
 	}
 }
