@@ -31,6 +31,7 @@ A structured collection of C# programming models, organized by topic and execute
 | A9 | ✅ | [`Solution`](models/arrays-1d/model-a9/solution.cs) | [`Explaination`](models/arrays-1d/model-a9/README.md) |
 | B1 | ⏳ | *Pending* | *Pending* |
 | B2 | ⏳ | *Pending* | *Pending* |
+| B3 | ⏳ | *Pending* | *Pending* |
 | B4 | ⏳ | *Pending* | *Pending* |
 | B5 | ✅ | [`Solution`](models/arrays-1d/model-b5/solution.cs) | *Pending* |
 | B6 | ✅ | [`Solution`](models/arrays-1d/model-b6/solution.cs) | *Pending* |
@@ -64,6 +65,8 @@ A structured collection of C# programming models, organized by topic and execute
 ### 📦 Patterns
 | Model | Status | Source | Issue |
 | :--- | :---: | :---: | :--- |
+| A1 | ⏳ | *Pending* | *Pending* |
+| D3 | ⏳ | *Pending* | *Pending* |
 
 ---
 
