@@ -27,9 +27,9 @@ namespace Models.Arrays2D
 					if (array[i, j] < min)
 						min = array[i, j];
 				}
-				Console.WriteLine("Smallest number is: " + min);
-				Console.WriteLine("Largest number is: " + max);
 			}
+			Console.WriteLine("Smallest number is: " + min);
+			Console.WriteLine("Largest number is: " + max);
 		}
 	}
 }
