@@ -25,7 +25,7 @@ A structured collection of C# programming models, organized by topic and execute
 | :--- | :---: | :---: | :--- |
 | A3 | ✅ | [`Solution`](models/arrays-1d/model-a3/solution.cs) | [`Explaination`](models/arrays-1d/model-a3/README.md) |
 | A4 | ✅ | [`Solution`](models/arrays-1d/model-a4/solution.cs) | [`Explaination`](models/arrays-1d/model-a4/README.md) |
-| A6 | ⏳ | *Pending* | *Pending* |
+| A6 | ✅ | [`Solution`](models/arrays-1d/model-a6/solution.cs) | [`Explaination`](models/arrays-1d/model-a6/README.md) |
 | A7 | ✅ | [`Solution`](models/arrays-1d/model-a7/solution.cs) | [`Explaination`](models/arrays-1d/model-a7/README.md) |
 | A8 | ✅ | [`Solution`](models/arrays-1d/model-a8/solution.cs) | [`Explaination`](models/arrays-1d/model-a8/README.md) |
 | A9 | ✅ | [`Solution`](models/arrays-1d/model-a9/solution.cs) | [`Explaination`](models/arrays-1d/model-a9/README.md) |
