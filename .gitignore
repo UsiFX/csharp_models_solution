@@ -6,8 +6,8 @@ obj/
 .DS_Store
 Thumbs.db
 
-# temp scripts
-gen-temp.sh
+# solution file
+csharp_models_solution.sln
 
 # editor files
 .vSCode/
