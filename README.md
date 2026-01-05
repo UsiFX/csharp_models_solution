@@ -33,10 +33,10 @@ A structured collection of C# programming models, organized by topic and execute
 | B2 | ✅ | [`Solution`](models/arrays-1d/model-b2/solution.cs) | [`Explaination`](models/arrays-1d/model-b2/README.md) |
 | B3 | ✅ | [`Solution`](models/arrays-1d/model-b3/solution.cs) | [`Explaination`](models/arrays-1d/model-b3/README.md) |
 | B4 | ⏳ | *Pending* | *Pending* |
-| B5 | ✅ | [`Solution`](models/arrays-1d/model-b5/solution.cs) | *Pending* |
-| B6 | ✅ | [`Solution`](models/arrays-1d/model-b6/solution.cs) | *Pending* |
-| B7 | ✅ | [`Solution`](models/arrays-1d/model-b7/solution.cs) | *Pending* |
-| B8 | ✅ | [`Solution`](models/arrays-1d/model-b8/solution.cs) | *Pending* |
+| B5 | ✅ | [`Solution`](models/arrays-1d/model-b5/solution.cs) | [`Explaination`](models/arrays-1d/model-b5/README.md) |
+| B6 | ✅ | [`Solution`](models/arrays-1d/model-b6/solution.cs) | [`Explaination`](models/arrays-1d/model-b6/README.md) |
+| B7 | ✅ | [`Solution`](models/arrays-1d/model-b7/solution.cs) | [`Explaination`](models/arrays-1d/model-b7/README.md) |
+| B8 | ✅ | [`Solution`](models/arrays-1d/model-b8/solution.cs) | [`Explaination`](models/arrays-1d/model-b8/README.md) |
 | C1 | ⏳ | *Pending* | *Pending* |
 | C2 | ⏳ | *Pending* | *Pending* |
 | C3 | ⏳ | *Pending* | *Pending* |
