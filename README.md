@@ -58,7 +58,7 @@ A structured collection of C# programming models, organized by topic and execute
 ### 📦 Arrays 2d
 | Model | Status | Source | Issue |
 | :--- | :---: | :---: | :--- |
-| A2 | ⏳ | *Pending* | *Pending* |
+| A2 | ✅ | [`Solution`](models/arrays-2d/model-a2/solution.cs) | [`Explaination`](models/arrays-2d/model-a2/README.md) |
 | A5 | ✅ | [`Solution`](models/arrays-2d/model-a5/solution.cs) | [`Explaination`](models/arrays-2d/model-a5/README.md) |
 | B9 | ⏳ | *Pending* | *Pending* |
 
