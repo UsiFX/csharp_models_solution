@@ -23,7 +23,7 @@ A structured collection of C# programming models, organized by topic and execute
 ### 📦 Arrays 1d
 | Model | Status | Source | Issue |
 | :--- | :---: | :---: | :--- |
-| A3 | ⏳ | *Pending* | *Pending* |
+| A3 | ✅ | [`Solution`](models/arrays-1d/model-a3/solution.cs) | [`Explaination`](models/arrays-1d/model-a3/README.md) |
 | A4 | ⏳ | *Pending* | *Pending* |
 | A6 | ⏳ | *Pending* | *Pending* |
 | A7 | ✅ | [`Solution`](models/arrays-1d/model-a7/solution.cs) | [`Explaination`](models/arrays-1d/model-a7/README.md) |
