@@ -65,7 +65,7 @@ A structured collection of C# programming models, organized by topic and execute
 ### 📦 Patterns
 | Model | Status | Source | Issue |
 | :--- | :---: | :---: | :--- |
-| A1 | ⏳ | *Pending* | *Pending* |
+| A1 | ✅ | [`Solution`](models/patterns/model-a1/solution.cs) | [`Explaination`](models/patterns/model-a1/README.md) |
 | D3 | ⏳ | *Pending* | *Pending* |
 
 ---
