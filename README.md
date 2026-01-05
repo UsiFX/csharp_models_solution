@@ -53,7 +53,7 @@ A structured collection of C# programming models, organized by topic and execute
 | D6 | ⏳ | *Pending* | *Pending* |
 | D7 | ⏳ | *Pending* | *Pending* |
 | D8 | ⏳ | *Pending* | *Pending* |
-| D9 | ⏳ | *Pending* | *Pending* |
+| D9 | ✅ | [`Solution`](models/arrays-1d/model-d9/solution.cs) | [`Explaination`](models/arrays-1d/model-d9/README.md) |
 
 ### 📦 Arrays 2d
 | Model | Status | Source | Issue |
