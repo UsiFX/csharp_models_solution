@@ -10,10 +10,10 @@ namespace Models.Arrays1D
 		{
 			int[] array = new int[10];
 
-			for (int i = 0; i < array.Length; i++)
+			for (int i = 1; i <= array.Length; i++)
 			{
 				Console.Write($"Enter element {i}: ");
-				array[i] = Convert.ToInt32(Console.ReadLine());
+				array[i - 1] = Convert.ToInt32(Console.ReadLine());
 			}
 
 			Console.Write("Elements at even indices: ");
@@ -21,7 +21,7 @@ namespace Models.Arrays1D
 			for (int print = 0; print < array.Length; print++)
 			{
 				if (print % 2 == 0)
-					Console.Write(array[print] + " ");
+					Console.Write(array[print + 1] + " ");
 			}
 
 			Console.WriteLine();

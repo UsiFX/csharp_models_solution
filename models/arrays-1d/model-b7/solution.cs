@@ -12,7 +12,7 @@ namespace Models.Arrays1D
 
 			for (int read = 0; read < array.Length; read++)
 			{
-				Console.Write("Enter element " + (read + 1) + ": ");
+				Console.Write($"Enter element {read + 1}: ");
 				array[read] = Convert.ToInt32(Console.ReadLine());
 			}
 
@@ -27,7 +27,7 @@ namespace Models.Arrays1D
 					count++;
 			}
 
-			Console.WriteLine("Element " + searchElement + " found " + count + " times in the array.");
+			Console.WriteLine($"Element {searchElement} found {count} time(s) in the array.");
 		}
 	}
 }

@@ -11,19 +11,19 @@ namespace Models.Arrays1D
 			int[] array = new int[6];
 			int[] temp = new int[6];
 
-			for (int read = 0; read < array.Length; read++)
+			for (int read = 1; read <= array.Length; read++)
 			{
-				Console.WriteLine("Enter element " + (read + 1) + ": ");
-				array[read] = Convert.ToInt32(Console.ReadLine());
+				Console.Write($"Enter element {read}: ");
+				array[read - 1] = Convert.ToInt32(Console.ReadLine());
 
-				if (array[read] >= 0 && array[read] % 3 == 0)
-				        temp[read] = (int)Math.Sqrt(array[read]);
+				if (array[read - 1] >= 0 && array[read - 1] % 3 == 0)
+				    temp[read - 1] = (int)Math.Sqrt(array[read - 1]);
 			}
 
 			for (int print = 0; print < temp.Length; print++)
 			{
 				if (temp[print] != 0)
-					Console.WriteLine("Square root of element " + (print + 1) + " is: " + temp[print]);
+					Console.WriteLine($"Square root of element {print + 1} is: {temp[print]}");
 			}
 		}
 	}
