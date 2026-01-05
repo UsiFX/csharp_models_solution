@@ -16,7 +16,8 @@ namespace Models.Arrays1d
 			for (int i = 0; i < numbers.Length; i++)
 			{
 				Console.Write($"Number {i + 1}: ");
-				numbers[i] = int.Parse(Console.ReadLine());
+				while (!int.TryParse(Console.ReadLine(), out numbers[i]))
+					Console.Write("Invalid input, try again: ");
 			}
 
 			Console.Write("\nThe array is: ");
