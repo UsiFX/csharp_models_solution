@@ -41,6 +41,7 @@ A structured collection of C# programming models, organized by topic and execute
 - [Getting Started](#getting-started)
 - [Project layout](#project-layout)
 - [Quick run (Make + dotnet)](#quick-run-make--dotnet)
+- [Preview model documentation](#preview-model-documentation)
 - [How the runner works](#how-the-runner-works)
 - [Create / regenerate models](#create--regenerate-models)
 - [Models (organized by topic)](#models-organized-by-topic)
@@ -244,6 +245,25 @@ echo "  - Program receives \`args[0] = \"arrays-1d\"\`, \`args[1] = \"a7\"\`" >>
 echo "" >> "$README_FILE"
 echo "Notes:" >> "$README_FILE"
 echo "- \`--\` separates dotnet CLI options from application arguments. All tokens after \`--\` are forwarded to your \`Main(string[] args)\`." >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "---" >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "## Preview model documentation" >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "You can preview a model's Problem, Input, Output, Logic and How to Run without opening the per-model README files." >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "Using Make (preferred):" >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "- Full preview: \`make preview topic=arrays-1d model=b4\`" >> "$README_FILE"
+echo "- Compact preview (still prints the full Logic section): \`make preview topic=arrays-1d model=b4 short=1\`" >> "$README_FILE"
+echo "- Show only a single heading: \`make preview topic=arrays-1d model=b4 section=\"Logic\"\`" >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "Direct script (no Make): \`./generate_readme.sh preview arrays-1d b4 --short\`" >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "Notes:" >> "$README_FILE"
+echo "" >> "$README_FILE"
+echo "- The preview reads \`models/<topic>/model-<id>/README.md\` and prints matching sections." >> "$README_FILE"
+echo "- If a model README is missing preview won't work" >> "$README_FILE"
 echo "" >> "$README_FILE"
 echo "---" >> "$README_FILE"
 echo "" >> "$README_FILE"

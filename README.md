@@ -19,6 +19,7 @@ This provides a clear project overview, how to run models, and an organized map 
 - [Getting Started](#getting-started)
 - [Project layout](#project-layout)
 - [Quick run (Make + dotnet)](#quick-run-make--dotnet)
+- [Preview model documentation](#preview-model-documentation)
 - [How the runner works](#how-the-runner-works)
 - [Create / regenerate models](#create--regenerate-models)
 - [Models (organized by topic)](#models-organized-by-topic)
@@ -150,6 +151,25 @@ Two common ways to run models:
 
 Notes:
 - `--` separates dotnet CLI options from application arguments. All tokens after `--` are forwarded to your `Main(string[] args)`.
+
+---
+
+## Preview model documentation
+
+You can preview a model's Problem, Input, Output, Logic and How to Run without opening the per-model README files.
+
+Using Make (preferred):
+
+- Full preview: `make preview topic=arrays-1d model=b4`
+- Compact preview (still prints the full Logic section): `make preview topic=arrays-1d model=b4 short=1`
+- Show only a single heading: `make preview topic=arrays-1d model=b4 section="Logic"`
+
+Direct script (no Make): `./generate_readme.sh preview arrays-1d b4 --short`
+
+Notes:
+
+- The preview reads `models/<topic>/model-<id>/README.md` and prints matching sections.
+- If a model README is missing preview won't work
 
 ---
 
