@@ -1,20 +1,13 @@
 # Model D3
 
 ## Problem
-Print the following pattern using a nested for loop:
-
-``` bash
-1
-2 3
-4 5 6
-7 8 9 10
-```
+Print triangular increasing numbers pattern.
 
 ## Input
-No input.
+No input required.
 
 ## Output
-```bash
+```
 1
 2 3
 4 5 6
@@ -22,7 +15,14 @@ No input.
 ```
 
 ## Logic
-The outer loop controls rows and the inner loop prints incresing numbers per row.
+1. Initialize a counter starting at 1
+2. Use nested for loops:
+   - Outer loop: 4 rows (increasing length: 1, 2, 3, 4)
+   - Inner loop: print numbers in ascending order
+3. For each row i (starting from 1):
+   - Print i numbers
+   - Increment the counter after each number
+4. Print each row on a new line
 
 ## How to Run
 

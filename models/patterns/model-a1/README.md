@@ -1,20 +1,13 @@
 # Model A1
 
 ## Problem
-Print the following pattern using a nested for loop:
-
-``` bash
-9 8 7 6
-5 4 3
-2 1
-0
-```
+Print descending triangular numbers pattern.
 
 ## Input
-No input.
+No input required.
 
 ## Output
-```bash
+```
 9 8 7 6
 5 4 3
 2 1
@@ -22,7 +15,14 @@ No input.
 ```
 
 ## Logic
-The outer loop controls rows and the inner loop prints decreasing numbers per row.
+1. Initialize a counter starting at 9
+2. Use nested for loops:
+   - Outer loop: 4 rows (decreasing length: 4, 3, 2, 1)
+   - Inner loop: print numbers in descending order
+3. For each row:
+   - Print the required number of values
+   - Decrement the counter after each number
+4. Print each row on a new line
 
 ## How to Run
 

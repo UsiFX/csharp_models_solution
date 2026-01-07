@@ -1,16 +1,22 @@
 # Model D2
 
 ## Problem
-Print the index of the first maximum element.
+Index of first maximum in an array (n ≤ 12).
 
 ## Input
-n ≤ 12 integers
+- Number of elements n (where n ≤ 12)
+- n integers
 
 ## Output
-Index of the maximum value (0-based).
+The index (0-based) of the first occurrence of the maximum value.
 
 ## Logic
-Single loop keeps track of max value and its first index.
+1. Read the number of elements n
+2. Read n integers into an array
+3. Initialize maxValue = array[0] and maxIndex = 0
+4. Iterate through the array starting from index 1:
+   - If current element > maxValue, update maxValue and maxIndex
+5. Print the index of the first maximum
 
 ## How to Run
 

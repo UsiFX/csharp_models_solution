@@ -1,18 +1,24 @@
 # Model C1
 
 ## Problem
-Print elements that appear more than once in an array.
+Print elements that appear more than once (duplicate detection).
 
 ## Input
-Size of the array
-Elements of the array
+- Size of the array (n)
+- n integer elements
 
 ## Output
-Array elements
-Duplicate elements
+- All array elements
+- Duplicate elements (each unique duplicate printed once)
 
 ## Logic
-Nested loops compare each element with the rest of the array and print duplicates once.
+1. Read the array size and elements
+2. Print all array elements
+3. Use nested loops to detect duplicates:
+   - Outer loop: iterate through each element at index i
+   - Inner loop: check elements from index i+1 onwards
+   - If a match is found and it hasn't been printed yet, mark it as duplicate
+4. Print each duplicate value only once
 
 ## How to Run
 

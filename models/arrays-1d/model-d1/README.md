@@ -1,16 +1,20 @@
 # Model D1
 
 ## Problem
-Print array elements in reverse order only if they are greater than 20.
+Print reversed elements greater than 20.
 
 ## Input
-50 45 40 35 30 25 20 15 10
+Array of 9 integers (e.g., 50 45 40 35 30 25 20 15 10)
 
 ## Output
-50 45 40 35 30 25
+Elements greater than 20, printed in reverse order (e.g., 50 45 40 35 30 25)
 
 ## Logic
-Loop the array in reverse and print elements greater than 20.
+1. Read 9 integers into an array
+2. Iterate through the array from the last index to the first (reverse order)
+3. For each element:
+   - If the element is greater than 20, print it
+4. Print all qualifying elements in a single line
 
 ## How to Run
 

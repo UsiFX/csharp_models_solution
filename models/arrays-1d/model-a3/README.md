@@ -1,17 +1,22 @@
 # Model A3
 
 ## Problem
-Modify elements within a range from 15 to 25 and compute their sum.
+Modify elements in a value range and compute their sum.
 
 ## Input
 Array of 6 integers.
 
 ## Output
-Sum of modified elements and final modified array.
+- Sum of modified elements
+- Final modified array
 
 ## Logic
-Elements between 15 and 25 are increased by 2, summed, and printed.
-Final Array printed
+1. Read 6 integers into an array
+2. Iterate through the array:
+   - If element is between 15 and 25 (inclusive), increase it by 2
+   - Add the modified value to a running sum
+3. Print the sum of modified elements
+4. Print the final modified array
 
 ## How to Run
 
