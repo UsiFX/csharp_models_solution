@@ -46,13 +46,13 @@ A structured collection of C# programming models, organized by topic and execute
 | C7 | ✅ | [`Solution`](models/arrays-1d/model-c7/solution.cs) | [`Explaination`](models/arrays-1d/model-c7/README.md) |
 | C8 | ✅ | [`Solution`](models/arrays-1d/model-c8/solution.cs) | [`Explaination`](models/arrays-1d/model-c8/README.md) |
 | C9 | ✅ | [`Solution`](models/arrays-1d/model-c9/solution.cs) | [`Explaination`](models/arrays-1d/model-c9/README.md) |
-| D1 | ⏳ | *Pending* | *Pending* |
-| D2 | ⏳ | *Pending* | *Pending* |
-| D4 | ⏳ | *Pending* | *Pending* |
-| D5 | ⏳ | *Pending* | *Pending* |
-| D6 | ⏳ | *Pending* | *Pending* |
-| D7 | ⏳ | *Pending* | *Pending* |
-| D8 | ⏳ | *Pending* | *Pending* |
+| D1 | ✅ | [`Solution`](models/arrays-1d/model-d1/solution.cs) | [`Explaination`](models/arrays-1d/model-d1/README.md) |
+| D2 | ✅ | [`Solution`](models/arrays-1d/model-d2/solution.cs) | [`Explaination`](models/arrays-1d/model-d2/README.md) |
+| D4 | ✅ | [`Solution`](models/arrays-1d/model-d4/solution.cs) | [`Explaination`](models/arrays-1d/model-d4/README.md) |
+| D5 | ✅ | [`Solution`](models/arrays-1d/model-d5/solution.cs) | [`Explaination`](models/arrays-1d/model-d5/README.md) |
+| D6 | ✅ | [`Solution`](models/arrays-1d/model-d6/solution.cs) | [`Explaination`](models/arrays-1d/model-d6/README.md) |
+| D7 | ✅ | [`Solution`](models/arrays-1d/model-d7/solution.cs) | [`Explaination`](models/arrays-1d/model-d7/README.md) |
+| D8 | ✅ | [`Solution`](models/arrays-1d/model-d8/solution.cs) | [`Explaination`](models/arrays-1d/model-d8/README.md) |
 | D9 | ✅ | [`Solution`](models/arrays-1d/model-d9/solution.cs) | [`Explaination`](models/arrays-1d/model-d9/README.md) |
 
 ### 📦 Arrays 2d
