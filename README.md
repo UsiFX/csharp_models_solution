@@ -190,7 +190,7 @@ Arrays 1D (`models/arrays-1d/`)
 - [A7](models/arrays-1d/model-a7/README.md) — Read 6 integers, swap first and last, print result.
 - [A8](models/arrays-1d/model-a8/README.md) — Replace negative elements with absolute values.
 - [A9](models/arrays-1d/model-a9/README.md) — Print elements located at even indices from a 10-element array.
-- B1 — Conditional +/- 3 depending on threshold. **(Unsolved)**
+- [B1](models/arrays-1d/model-b1/README.md) — The modified array each element adjusted: elements >= 6 decreased by 1, elements < 6 increased by 3.
 - [B2](models/arrays-1d/model-b2/README.md) — Element-wise sum of two 3-element arrays, multiplied by 3.
 - [B3](models/arrays-1d/model-b3/README.md) — Print sqrt for numbers divisible by 3 but not 2.
 - B4 — (Model not yet implemented) **(Unsolved)**
