@@ -368,6 +368,9 @@ cat <<EOF >> "$README_FILE"
 ---
 
 ## License
+<p align="left">
+  <img width="20%" src="https://upload.wikimedia.org/wikipedia/commons/9/93/GPLv3_Logo.svg"/>
+</p>
 
 This project is licensed under the GNU General Public License v3.0 — see the [LICENSE](LICENSE) file for details.
 
