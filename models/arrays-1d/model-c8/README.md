@@ -1,17 +1,22 @@
 # Model C8
 
 ## Problem
-Print array and sum of even elements.
+Sum of even numbers in given array.
 
 ## Input
-8 integers.
+Array of 8 integers.
 
 ## Output
-Array elements
-Sum of even numbers.
+- All array elements
+- Sum of even numbers
 
 ## Logic
-Loop through array and add even values.
+1. Read 8 integers into an array
+2. Print all array elements
+3. Initialize sum = 0
+4. Iterate through each element:
+   - If element % 2 == 0 (even), add it to sum
+5. Print the sum of even numbers
 
 ## How to Run
 

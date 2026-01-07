@@ -1,17 +1,22 @@
 # Model C4
 
 ## Problem
-Count even and odd numbers in an array.
+Count of even and odd elements (8 integers).
 
 ## Input
-8 integers.
+Array of 8 integers.
 
 ## Output
-Even: X  
-Odd: Y
+- Count of even numbers
+- Count of odd numbers
 
 ## Logic
-Loop through array and increment counters based on parity.
+1. Read 8 integers into an array
+2. Initialize two counters: evenCount = 0, oddCount = 0
+3. Iterate through each element:
+   - If element % 2 == 0, increment evenCount
+   - Otherwise, increment oddCount
+4. Print "Even: X" and "Odd: Y"
 
 ## How to Run
 

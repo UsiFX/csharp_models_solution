@@ -1,16 +1,21 @@
-# Model D2
+# Model D4
 
 ## Problem
-Reverse an array without using a temporary array.
+Reverse array in-place (6 integers).
 
 ## Input
-6 integers.
+Array of 6 integers.
 
 ## Output
-Reversed array.
+The array reversed in-place.
 
 ## Logic
-Swap elements from start and end moving inward.
+1. Read 6 integers into an array
+2. Use two pointers: start = 0, end = 5
+3. While start < end:
+   - Swap array[start] with array[end]
+   - Increment start, decrement end
+4. Print the reversed array
 
 ## How to Run
 

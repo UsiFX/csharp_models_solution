@@ -1,17 +1,21 @@
 # Model D7
 
 ## Problem
-Print array, then print elements greater than 15.
+Print array then elements greater than 15.
 
 ## Input
-8 integers.
+Array of 8 integers.
 
 ## Output
-Original array
-Elements greater than 15
+- All array elements
+- Elements greater than 15
 
 ## Logic
-First print full array, then apply condition.
+1. Read 8 integers into an array
+2. Print the entire array
+3. Iterate through the array again:
+   - If element > 15, print it
+4. Print all qualifying elements
 
 ## How to Run
 

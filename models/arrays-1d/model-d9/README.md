@@ -1,17 +1,22 @@
 # Model D9
 
 ## Problem
-Print maximum and minimum values in an array.
+Print maximum and minimum from 9 integers.
 
 ## Input
-9 integers.
+Array of 9 integers.
 
 ## Output
-Maximum value
-Minimum value
+- Maximum value
+- Minimum value
 
 ## Logic
-Single loop tracks max and min values.
+1. Read 9 integers into an array
+2. Initialize max = array[0] and min = array[0]
+3. Iterate through the array:
+   - If element > max, update max
+   - If element < min, update min
+4. Print the maximum and minimum values
 
 ## How to Run
 

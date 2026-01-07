@@ -1,16 +1,20 @@
 # Model A7
 
 ## Problem
-Swap first and last elements of an array.
+Read 6 integers, swap first and last, print result.
 
 ## Input
 Array of 6 integers.
 
 ## Output
-Modified array in one line.
+Modified array with first and last elements swapped, printed in one line.
 
 ## Logic
-Swap values using a temporary variable.
+1. Read 6 integers into an array
+2. Store the first element (index 0) in a temporary variable
+3. Assign the last element (index 5) to the first position
+4. Assign the temporary variable to the last position
+5. Print the modified array
 
 ## How to Run
 

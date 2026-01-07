@@ -4,13 +4,17 @@
 Print numbers between 10 and 50 inclusive.
 
 ## Input
-10 integers.
+Array of 10 integers.
 
 ## Output
-Number between 10 to 50
+Elements within the range [10, 50] inclusive.
 
 ## Logic
-Loop and print elements that satisfy the range.
+1. Read 10 integers into an array
+2. Iterate through each element:
+   - Check if element >= 10 AND element <= 50
+   - If true, print the element
+3. Print all qualifying elements
 
 ## How to Run
 
