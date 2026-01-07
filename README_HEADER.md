@@ -19,6 +19,7 @@ This provides a clear project overview, how to run models, and an organized map 
 - [Getting Started](#getting-started)
 - [Project layout](#project-layout)
 - [Quick run (Make + dotnet)](#quick-run-make--dotnet)
+- [Preview model documentation](#preview-model-documentation)
 - [How the runner works](#how-the-runner-works)
 - [Create / regenerate models](#create--regenerate-models)
 - [Models (organized by topic)](#models-organized-by-topic)
