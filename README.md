@@ -190,10 +190,10 @@ Arrays 1D (`models/arrays-1d/`)
 - [A7](models/arrays-1d/model-a7/README.md) — Read 6 integers, swap first and last, print result.
 - [A8](models/arrays-1d/model-a8/README.md) — Replace negative elements with absolute values.
 - [A9](models/arrays-1d/model-a9/README.md) — Print elements located at even indices from a 10-element array.
-- [B1](models/arrays-1d/model-b1/README.md) — The modified array each element adjusted: elements >= 6 decreased by 1, elements < 6 increased by 3.
+- [B1](models/arrays-1d/model-b1/README.md) — Write a program to define a 10-element array that accepts values from the user. For each element, if it is greater than or equal to 6 decrease it by 1; if it is less than 6 increase it by 3. Print the modified array.
 - [B2](models/arrays-1d/model-b2/README.md) — Element-wise sum of two 3-element arrays, multiplied by 3.
 - [B3](models/arrays-1d/model-b3/README.md) — Print sqrt for numbers divisible by 3 but not 2.
-- B4 — (Model not yet implemented) **(Unsolved)**
+- [B4](models/arrays-1d/model-b4/README.md) — Increase elements at even indices by 3 and at odd indices by 4 in a 10-element user-provided array, then print the modified array.
 - [B5](models/arrays-1d/model-b5/README.md) — Element-wise sum of two arrays (length 3).
 - [B6](models/arrays-1d/model-b6/README.md) — Print sqrt for numbers divisible by 3.
 - [B7](models/arrays-1d/model-b7/README.md) — Count occurrences of a number X in an 8-element array.
