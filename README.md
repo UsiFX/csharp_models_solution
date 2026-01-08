@@ -150,7 +150,7 @@ Two common ways to run models:
   - Program receives `args[0] = "arrays-1d"`, `args[1] = "a7"`
 
 Notes:
-- `--` separates dotnet CLI options from application arguments. All tokens after `--` are forwarded to your `Main(string[] args)`.
+- `--` separates dotnet CLI options from application arguments. All tokens after `--` are forwarded to `Main(string[] args)`.
 
 ---
 
